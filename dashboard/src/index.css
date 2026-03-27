@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  * {
+    @apply border-dark-border;
+  }
+  body {
+    @apply bg-dark-bg text-gray-200 antialiased;
+  }
+  html, body, #root {
+    @apply h-full w-full;
+  }
+}
